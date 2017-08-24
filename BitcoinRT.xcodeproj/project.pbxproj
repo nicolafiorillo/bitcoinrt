@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		975CEF2E1F4EACE00023045F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975CEF2D1F4EACE00023045F /* AppDelegate.swift */; };
-		975CEF301F4EACE00023045F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975CEF2F1F4EACE00023045F /* ViewController.swift */; };
 		975CEF331F4EACE00023045F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975CEF311F4EACE00023045F /* Main.storyboard */; };
 		975CEF351F4EACE00023045F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975CEF341F4EACE00023045F /* Assets.xcassets */; };
 		975CEF381F4EACE00023045F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975CEF361F4EACE00023045F /* LaunchScreen.storyboard */; };
+		97E8164A1F4EC1F30082F287 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E816491F4EC1F30082F287 /* MainTableViewController.swift */; };
+		97E8164C1F4EC64D0082F287 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E8164B1F4EC64D0082F287 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		975CEF2A1F4EACE00023045F /* BitcoinRT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinRT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975CEF2D1F4EACE00023045F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		975CEF2F1F4EACE00023045F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		975CEF321F4EACE00023045F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		975CEF341F4EACE00023045F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975CEF371F4EACE00023045F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		975CEF391F4EACE00023045F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E816491F4EC1F30082F287 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		97E8164B1F4EC64D0082F287 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				975CEF2D1F4EACE00023045F /* AppDelegate.swift */,
-				975CEF2F1F4EACE00023045F /* ViewController.swift */,
 				975CEF311F4EACE00023045F /* Main.storyboard */,
 				975CEF341F4EACE00023045F /* Assets.xcassets */,
 				975CEF361F4EACE00023045F /* LaunchScreen.storyboard */,
 				975CEF391F4EACE00023045F /* Info.plist */,
+				97E816491F4EC1F30082F287 /* MainTableViewController.swift */,
+				97E8164B1F4EC64D0082F287 /* MainTableViewCell.swift */,
 			);
 			path = BitcoinRT;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975CEF301F4EACE00023045F /* ViewController.swift in Sources */,
 				975CEF2E1F4EACE00023045F /* AppDelegate.swift in Sources */,
+				97E8164C1F4EC64D0082F287 /* MainTableViewCell.swift in Sources */,
+				97E8164A1F4EC1F30082F287 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
