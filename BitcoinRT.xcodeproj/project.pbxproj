@@ -304,6 +304,7 @@
 				975CEF3E1F4EACE00023045F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
